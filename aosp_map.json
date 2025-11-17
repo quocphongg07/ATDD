@@ -1,0 +1,14 @@
+{
+  "Landroid/telephony/SmsManager;->sendTextMessage": 1,
+  "Landroid/telephony/SmsManager;->getAllMessagesFromIcc": 1,
+  "Landroid/provider/ContactsContract$Contacts;->getLookupUri": 1,
+  "Landroid/content/pm/PackageManager;->installPackage": 1,
+  "Landroid/Manifest$permission;->READ_SMS": 1,
+  "Landroid/Manifest$permission;->READ_CONTACTS": 1,
+  "Landroid/Manifest$permission;->WRITE_EXTERNAL_STORAGE": 1,
+
+  "Ljava/lang/String;->toString": 0,
+  "Ljava/lang/Object;-><init>": 0,
+  "Landroid/content/Context;->startActivity": 0,
+  "Landroid/view/View;->findViewById": 0
+}
