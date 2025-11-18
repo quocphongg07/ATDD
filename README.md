@@ -19,7 +19,7 @@ Quy trình được chia thành hai môi trường riêng biệt:
 - Môi trường xử lý (Processing): Dùng để chạy Giai đoạn 1-4 (an toàn trên sandbox như Kali).
 - Môi trường huấn luyện (Training): Dùng để chạy Giai đoạn 5 (trên máy thật Windows).
   
-** 2.1. Môi trường xử lý (Dùng trên Kali)**
+**2.1. Môi trường xử lý (Dùng trên Kali)**
   
 Môi trường này chỉ cài đặt các gói cần thiết để phân tích .apk và xử lý đồ thị.
 - Tạo môi trường conda mới:
@@ -29,7 +29,7 @@ conda activate processing_env
 - Cài đặt các gói xử lý (dùng pip):
 pip install androguard joblib pandas pyarrow networkx
 
-** 2.2 Môi trường huấn luyện (Dùng trên máy thật)**
+**2.2 Môi trường huấn luyện (Dùng trên máy thật)**
 
 Môi trường này cài đặt các gói học sâu (PyTorch & DGL) một cách ổn định.
 - Tạo môi trường conda mới:
