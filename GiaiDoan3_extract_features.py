@@ -65,8 +65,6 @@ def calculate_importance_features(fcg, node):
 def calculate_function_weight_features(method_analysis, aosp_api_map):
     """
     Hàm 3: Tính đặc trưng Trọng số Hàm (Mục 3.1.3)
-    *** PHIÊN BẢN HOÀN THIỆN ***
-    Triển khai logic của Eq. 2, 3, 4
     """
 
     # Trường hợp 1: Nút là hàm BÊN NGOÀI (External API) [cite: 316, 325]
