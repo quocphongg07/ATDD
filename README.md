@@ -14,7 +14,7 @@ Kho lưu trữ này chỉ chứa mã nguồn (scripts) để xử lý và huấn
 
 # 2. Cài đặt môi trường
   
-Quy trình này cực kỳ nhạy cảm với phiên bản thư viện. Việc cài đặt các gói C++ (PyTorch, DGL) trên Kali Linux hoặc bằng pip tiêu chuẩn rất dễ gặp lỗi (iJIT_NotifyEvent, libgraphbolt.so, ModuleNotFoundError). Cách làm ổn định duy nhất và được khuyến nghị là sử dụng Miniconda với Python 3.11.
+Quy trình này cực kỳ nhạy cảm với phiên bản thư viện. Việc cài đặt các gói C++ (PyTorch, DGL) trên Kali Linux hoặc bằng pip tiêu chuẩn rất dễ gặp lỗi (iJIT_NotifyEvent, libgraphbolt.so, ModuleNotFoundError), do đó học viên đã sử dụng kết hợp Miniconda với Python 3.11.
 Quy trình được chia thành hai môi trường riêng biệt:
 - Môi trường xử lý (Processing): Dùng để chạy Giai đoạn 1-4 (an toàn trên sandbox như Kali).
 - Môi trường huấn luyện (Training): Dùng để chạy Giai đoạn 5 (trên máy thật Windows).
