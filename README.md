@@ -8,7 +8,7 @@ Mục tiêu cốt lõi của phương pháp này là sử dụng Mạng Tích ch
 Kho lưu trữ này chỉ chứa mã nguồn (scripts) để xử lý và huấn luyện. Do các hạn chế về bảo mật và kích thước, các tập dữ liệu được sử dụng trong giai đoạn này không thể tải lên đây.
 Để chạy dự án này, người dùng phải tự thu thập các tài nguyên sau:
 - Các tệp .apk: Người dùng cần một bộ dữ liệu lớn gồm các tệp .apk lành tính và độc hại. Bài báo gốc sử dụng: Độc hại (Drebin, CICMalDroid 2020) và Lành tính (Androzoo).
-(Trong quá trình thực nghiệm, chúng ta đã sử dụng CIC-AndMal2017 và các mẫu từ APKMirror).
+(Trong quá trình thực nghiệm, học viên đã sử dụng CIC-AndMal2017 và các mẫu từ APKMirror).
 - Bản đồ API (aosp_map.json): Đây là một tệp JSON người dùng phải tự xây dựng, có tác dụng ánh xạ tên hàm API (định dạng Dalvik) tới mức độ rủi ro (1: nguy hiểm, 0: bình thường).
 - Sử dụng dữ liệu từ PScout (được đề cập trong bài báo) làm nguồn tra cứu để tạo tệp này.
 
